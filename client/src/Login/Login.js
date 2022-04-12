@@ -13,11 +13,11 @@ const Login=() =>{
         
     <Container>
     <Navbar expand="lg" variant="light" bg="light">
-        <Navbar.Brand href="#" style={{color: "green"}}>Spotify 2.0</Navbar.Brand>
+        <Navbar.Brand href="#" style={{color: "green"}}>Loopify</Navbar.Brand>
     </Navbar>
 
     <Container className="d-flex justify-content-start align-items-center" style={{minHeight:"100vh"}}>
-        <a className="btn btn-outline-success btn-lg mx-2" href={AUTH_URL}>Login With Spotify</a>
+        <a className="btn btn-outline-success btn-lg mx-2" href={AUTH_URL}>Login With Loopify</a>
     </Container>
     </Container>
 
